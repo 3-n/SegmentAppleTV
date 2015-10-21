@@ -1,0 +1,25 @@
+PODS:
+  - Analytics/Core-iOS (2.0.12):
+    - TRVSDictionaryWithCaseInsensitivity (= 0.0.2)
+  - Analytics/Segmentio (2.0.12):
+    - Analytics/Core-iOS
+  - TRVSDictionaryWithCaseInsensitivity (0.0.2)
+
+DEPENDENCIES:
+  - Analytics/Segmentio (from `https://github.com/3-n/analytics-ios.git`, commit `40d162d9da490cf8e845f72358bf89645adb3fc6`)
+
+EXTERNAL SOURCES:
+  Analytics:
+    :commit: 40d162d9da490cf8e845f72358bf89645adb3fc6
+    :git: https://github.com/3-n/analytics-ios.git
+
+CHECKOUT OPTIONS:
+  Analytics:
+    :commit: 40d162d9da490cf8e845f72358bf89645adb3fc6
+    :git: https://github.com/3-n/analytics-ios.git
+
+SPEC CHECKSUMS:
+  Analytics: 42f0dd60c54eee274e3a608e6a289bd2efb2ad9b
+  TRVSDictionaryWithCaseInsensitivity: 51d2ccf52c6d645d27b63467a98fa02c556e01b0
+
+COCOAPODS: 0.39.0

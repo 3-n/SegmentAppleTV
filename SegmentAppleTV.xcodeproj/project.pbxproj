@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E053B4766D114566A7029E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCD1C3F66CF46EC9BBD7301 /* libPods.a */; };
+		BE4FD0901BD6A18D008B0E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4FD08F1BD6A18D008B0E5F /* AppDelegate.swift */; };
+		BE4FD0921BD6A18D008B0E5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4FD0911BD6A18D008B0E5F /* ViewController.swift */; };
+		BE4FD0951BD6A18D008B0E5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4FD0931BD6A18D008B0E5F /* Main.storyboard */; };
+		BE4FD0971BD6A18D008B0E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE4FD0961BD6A18D008B0E5F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		556BE84B7EFF3F4E5516CE12 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6FCD1C3F66CF46EC9BBD7301 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		967AC0E74952AF6F847520CC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BE4FD08C1BD6A18D008B0E5F /* SegmentAppleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentAppleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE4FD08F1BD6A18D008B0E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE4FD0911BD6A18D008B0E5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE4FD0941BD6A18D008B0E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE4FD0961BD6A18D008B0E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE4FD0981BD6A18D008B0E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4FD09E1BD6A852008B0E5F /* SegmentAppleTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SegmentAppleTV-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE4FD0891BD6A18D008B0E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E053B4766D114566A7029E2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F1176301456C1F07299AD45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FCD1C3F66CF46EC9BBD7301 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B54809CBB67E70D947768A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				967AC0E74952AF6F847520CC /* Pods.debug.xcconfig */,
+				556BE84B7EFF3F4E5516CE12 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE4FD0831BD6A18D008B0E5F = {
+			isa = PBXGroup;
+			children = (
+				BE4FD08E1BD6A18D008B0E5F /* SegmentAppleTV */,
+				BE4FD08D1BD6A18D008B0E5F /* Products */,
+				5B54809CBB67E70D947768A7 /* Pods */,
+				0F1176301456C1F07299AD45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE4FD08D1BD6A18D008B0E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4FD08C1BD6A18D008B0E5F /* SegmentAppleTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE4FD08E1BD6A18D008B0E5F /* SegmentAppleTV */ = {
+			isa = PBXGroup;
+			children = (
+				BE4FD08F1BD6A18D008B0E5F /* AppDelegate.swift */,
+				BE4FD0911BD6A18D008B0E5F /* ViewController.swift */,
+				BE4FD0931BD6A18D008B0E5F /* Main.storyboard */,
+				BE4FD0961BD6A18D008B0E5F /* Assets.xcassets */,
+				BE4FD0981BD6A18D008B0E5F /* Info.plist */,
+				BE4FD09E1BD6A852008B0E5F /* SegmentAppleTV-Bridging-Header.h */,
+			);
+			path = SegmentAppleTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4FD08B1BD6A18D008B0E5F /* SegmentAppleTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4FD09B1BD6A18D008B0E5F /* Build configuration list for PBXNativeTarget "SegmentAppleTV" */;
+			buildPhases = (
+				FCABA45866E147E0F0F88688 /* Check Pods Manifest.lock */,
+				BE4FD0881BD6A18D008B0E5F /* Sources */,
+				BE4FD0891BD6A18D008B0E5F /* Frameworks */,
+				BE4FD08A1BD6A18D008B0E5F /* Resources */,
+				2EBAD35948A44295F61897F6 /* Embed Pods Frameworks */,
+				7FB15F531F03839D2C9B18EF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentAppleTV;
+			productName = SegmentAppleTV;
+			productReference = BE4FD08C1BD6A18D008B0E5F /* SegmentAppleTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE4FD0841BD6A18D008B0E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Tooploox;
+				TargetAttributes = {
+					BE4FD08B1BD6A18D008B0E5F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BE4FD0871BD6A18D008B0E5F /* Build configuration list for PBXProject "SegmentAppleTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE4FD0831BD6A18D008B0E5F;
+			productRefGroup = BE4FD08D1BD6A18D008B0E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4FD08B1BD6A18D008B0E5F /* SegmentAppleTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE4FD08A1BD6A18D008B0E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4FD0971BD6A18D008B0E5F /* Assets.xcassets in Resources */,
+				BE4FD0951BD6A18D008B0E5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBAD35948A44295F61897F6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FB15F531F03839D2C9B18EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCABA45866E147E0F0F88688 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE4FD0881BD6A18D008B0E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4FD0921BD6A18D008B0E5F /* ViewController.swift in Sources */,
+				BE4FD0901BD6A18D008B0E5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE4FD0931BD6A18D008B0E5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE4FD0941BD6A18D008B0E5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE4FD0991BD6A18D008B0E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		BE4FD09A1BD6A18D008B0E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE4FD09C1BD6A18D008B0E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967AC0E74952AF6F847520CC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SegmentAppleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tooploox.SegmentAppleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SegmentAppleTV/SegmentAppleTV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE4FD09D1BD6A18D008B0E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556BE84B7EFF3F4E5516CE12 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SegmentAppleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tooploox.SegmentAppleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SegmentAppleTV/SegmentAppleTV-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE4FD0871BD6A18D008B0E5F /* Build configuration list for PBXProject "SegmentAppleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4FD0991BD6A18D008B0E5F /* Debug */,
+				BE4FD09A1BD6A18D008B0E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4FD09B1BD6A18D008B0E5F /* Build configuration list for PBXNativeTarget "SegmentAppleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE4FD09C1BD6A18D008B0E5F /* Debug */,
+				BE4FD09D1BD6A18D008B0E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE4FD0841BD6A18D008B0E5F /* Project object */;
+}
